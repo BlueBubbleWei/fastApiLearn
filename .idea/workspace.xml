@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129051bd-ccb6-4b1f-942d-4a346d0873e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/case12_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case13_response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case14_expand_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case15_status_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case16_table_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case17_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case18_body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case19_dependable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case20_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case21_auth1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case22_cors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case23_datavase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/case20_yield.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main2">
+  <component name="RunManager" selected="Python.case21_auth1">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pyPrj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +72,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case21_auth1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyPrj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/case21_auth1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,9 +127,11 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.main2" />
+      <item itemvalue="Python.case21_auth1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.case21_auth1" />
         <item itemvalue="Python.main2" />
       </list>
     </recent_temporary>
@@ -133,7 +154,7 @@
       <workItem from="1604366996211" duration="4121000" />
       <workItem from="1604453453659" duration="16710000" />
       <workItem from="1604918234863" duration="2966000" />
-      <workItem from="1604971604140" duration="13602000" />
+      <workItem from="1604971604140" duration="17239000" />
     </task>
     <servers />
   </component>
@@ -155,5 +176,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyPrj$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1603250416937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyPrj$case21_auth1.coverage" NAME="case21_auth1 Coverage Results" MODIFIED="1604992536947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
   </component>
 </project>
