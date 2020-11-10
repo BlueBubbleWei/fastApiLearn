@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129051bd-ccb6-4b1f-942d-4a346d0873e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/case11_extraType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case12_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case13_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case14_expand_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case15_status_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case16_table_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case17_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case18_body.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/case19_dependable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -24,6 +32,7 @@
   <component name="ProjectId" id="1io48eHYAk0Pl8nHxNLbeR6KRlM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -123,7 +132,8 @@
       <workItem from="1603435065263" duration="11789000" />
       <workItem from="1604366996211" duration="4121000" />
       <workItem from="1604453453659" duration="16710000" />
-      <workItem from="1604918234863" duration="2295000" />
+      <workItem from="1604918234863" duration="2966000" />
+      <workItem from="1604971604140" duration="13602000" />
     </task>
     <servers />
   </component>
