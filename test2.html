@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hello vue3</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0-beta.14/dist/vue.global.js"></script>
+    <!-- <script src="../dist/vue.global.js"></script> -->
+</head>
+
+<body>
+hello vue3
+<div id='app'>
+
+</div>
+<script>
+    const {h, createApp, computed, watchEffect, ref, reactive, onBeforeUpdate, onMounted, onUnmounted, toRefs} = Vue;
+
+    // 鼠标位置侦听
+    function useMouse() {
+
+        const state = reactive({x: 0, y: 0})
+        const update = e => {
+            state.x = e.pageX
+            state.y = e.pageY
+        }
+        onMounted(() => {
+            window.addEventListener('mousemove', update)
+        })
+        onUnmounted(() => {
+            window.removeEventListener('mousemove', update)
+        })
+        // 转换所有key为响应式数据
+        console.log('YYYY>>>>', toRefs(state))
+        return toRefs(state)
+    }
+
+    // 事件监测
+    function useTime() {
+        const state = reactive({time: new Date()})
+        onMounted(() => {
+            setInterval(() => {
+                state.time = new Date()
+            }, 1000)
+        })
+        return toRefs(state)
+    }
+
+    // 逻辑组合
+    const MyComp = {
+        template: `
+                <div>x: {{ x }} y: {{ y }}</div>
+
+                <p>time: {{time}}</p>
+                <div ref="root">{{ count }} </div>
+                <div v-for="(item, i) in list" :ref="el => { divs[i] = el }">
+    {{ item }}
+  </div>
+                `,
+        props: {
+            name: String,
+        },
+        setup(props) {
+            // 使用鼠标逻辑
+            console.log(props.name)
+            watchEffect(() => {
+                console.log(`name is: ` + props.name)
+            })
+            const {x, y} = useMouse()
+            // 使用时间逻辑
+            const {time} = useTime()
+            const count = ref(0)
+            const state = reactive({
+                count,
+            })
+            console.log(state.count) // 0
+
+            state.count = 1
+            console.log(count.value)
+            const object = reactive({foo: 'bar'})
+            const arr = reactive([ref(0)])
+            //  const map = reactive(new Map([['foo', ref(0)]]))
+            // console.log('map', map)
+            // console.log(map.get('foo'))
+            // 返回使用
+            console.log('################', object)
+            const count2 = ref(1)
+            const plusOne = computed(() => count2.value + 1)
+            plusOne.value = 1
+            const root = ref(null)
+            const list = reactive([1, 2, 3])
+      const divs = ref([])
+            // 确保在每次变更之前重置引用
+              onBeforeUpdate(() => {
+                divs.value = []
+              })
+
+            onMounted(() => {
+        // 在渲染完成后, 这个 div DOM 会被赋值给 root ref 对象
+        console.log(root.value,'UUU') // <div/>
+      })
+
+            console.log(plusOne.value, 'plusOne.value') // 2
+            return () => h('div', [count.value, list,
+        divs])
+            // return { x, y, time, count, object }
+        }
+    }
+    createApp(MyComp).mount('#app')
+
+
+</script>
+</body>
+
+</html>

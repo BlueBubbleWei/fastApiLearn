@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129051bd-ccb6-4b1f-942d-4a346d0873e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/case20_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case21_auth1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case22_cors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/case23_datavase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/sql_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/sql_app/case23_datavase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/sql_app/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/case20_yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/case23_datavase.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +39,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyDrivers\pyPrj\practice\sql_app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\MyDrivers\pyPrj" />
     </key>
@@ -154,7 +158,9 @@
       <workItem from="1604366996211" duration="4121000" />
       <workItem from="1604453453659" duration="16710000" />
       <workItem from="1604918234863" duration="2966000" />
-      <workItem from="1604971604140" duration="17239000" />
+      <workItem from="1604971604140" duration="18576000" />
+      <workItem from="1605057976497" duration="5568000" />
+      <workItem from="1605144350224" duration="8880000" />
     </task>
     <servers />
   </component>
